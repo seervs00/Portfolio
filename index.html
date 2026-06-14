@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Mahendra Seervi, a full-stack developer and Computer Science engineering student at IIIT Bhagalpur."
+    />
+    <title>Mahendra Seervi | Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar" data-topbar>
+        <a class="brand" href="#home" aria-label="Mahendra Seervi home">
+          <span class="brand-mark">MS</span>
+          <span>Mahendra</span>
+        </a>
+
+        <nav class="nav-links" data-nav>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="topbar-actions">
+          <button class="icon-button" type="button" data-theme-toggle aria-label="Toggle theme">
+            <i data-lucide="sun"></i>
+          </button>
+          <button class="icon-button menu-button" type="button" data-menu-toggle aria-label="Open menu">
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero section-band" id="home" aria-label="Portfolio introduction">
+          <canvas id="hero-canvas" aria-hidden="true"></canvas>
+          <div class="hero-shade" aria-hidden="true"></div>
+
+          <div class="hero-content">
+            <p class="eyebrow">BTech CSE, IIIT Bhagalpur</p>
+            <h1>Mahendra Seervi</h1>
+            <p class="hero-copy">
+              Full-stack developer crafting real-time, data-driven web products with crisp interfaces,
+              strong backend foundations, and production-minded performance.
+            </p>
+
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="button primary" href="mailto:mahendras00b@gmail.com">
+                <i data-lucide="send"></i>
+                Contact Me
+              </a>
+              <a class="button ghost" href="./Resume_Mahendra%20(30).pdf" download="Mahendra-Seervi-Resume.pdf">
+                <i data-lucide="download"></i>
+                Resume
+              </a>
+              <a class="button text-button" href="#projects">
+                <i data-lucide="arrow-down-right"></i>
+                View Work
+              </a>
+            </div>
+
+            <div class="hero-metrics" aria-label="Career highlights">
+              <div>
+                <strong data-counter="100">0</strong>
+                <span>users served</span>
+              </div>
+              <div>
+                <strong data-counter="400">0</strong>
+                <span>DSA problems</span>
+              </div>
+              <div>
+                <strong data-counter="60">0</strong>
+                <span>API speed gain</span>
+              </div>
+              <div>
+                <strong data-counter="95">0</strong>
+                <span>uptime target</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="orbit-tags" aria-hidden="true">
+            <span>React</span>
+            <span>Node</span>
+            <span>PostgreSQL</span>
+            <span>WebSockets</span>
+            <span>TypeScript</span>
+          </div>
+        </section>
+
+        <section class="signal-strip section-band" aria-label="Quick profile">
+          <div class="strip-item">
+            <i data-lucide="map-pin"></i>
+            <span>Rajasthan, India</span>
+          </div>
+          <div class="strip-item">
+            <i data-lucide="graduation-cap"></i>
+            <span>CGPA 7.51/10.0</span>
+          </div>
+          <div class="strip-item">
+            <i data-lucide="code-2"></i>
+            <span>MERN, SQL, DSA</span>
+          </div>
+          <div class="strip-item">
+            <i data-lucide="mail"></i>
+            <span>mahendras00b@gmail.com</span>
+          </div>
+        </section>
+
+        <section class="section-band content-section about-section" id="about">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>Engineer with product instincts and a builder's pace.</h2>
+          </div>
+
+          <div class="about-layout">
+            <div class="about-copy reveal">
+              <p>
+                I am a Computer Science engineering student at IIIT Bhagalpur focused on full-stack
+                development, real-time systems, and practical product execution. My work spans cricket
+                analytics, truck management workflows, hotel booking systems, and college networking tools.
+              </p>
+              <p>
+                I like building interfaces that feel fast and dependable, then backing them with clean APIs,
+                thoughtful database queries, and measurable performance wins.
+              </p>
+            </div>
+
+            <div class="education-grid reveal">
+              <article class="info-card">
+                <span>2022 - 2026</span>
+                <h3>IIIT Bhagalpur</h3>
+                <p>BTech in Computer Science and Engineering</p>
+                <strong>CGPA 7.75/10.0</strong>
+              </article>
+              <article class="info-card">
+                <span>2020</span>
+                <h3>Alok SR SEC School</h3>
+                <p>Higher Secondary Education</p>
+                <strong>76.20%</strong>
+              </article>
+              <article class="info-card">
+                <span>2018</span>
+                <h3>Saraswati Bal VM SR SEC School</h3>
+                <p>Secondary Education</p>
+                <strong>81.0%</strong>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-band content-section" id="skills">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>Modern web stack with strong CS fundamentals.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <i data-lucide="square-terminal"></i>
+              <h3>Languages</h3>
+              <div class="chip-row">
+                <span>C</span>
+                <span>C++</span>
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>SQL</span>
+              </div>
+            </article>
+            <article class="skill-card reveal">
+              <i data-lucide="layers-3"></i>
+              <h3>Frontend</h3>
+              <div class="chip-row">
+                <span>React.js</span>
+                <span>Next.js</span>
+                <span>Tailwind CSS</span>
+                <span>Bootstrap</span>
+                <span>Redux</span>
+                <span>shadcn/ui</span>
+              </div>
+            </article>
+            <article class="skill-card reveal">
+              <i data-lucide="server"></i>
+              <h3>Backend</h3>
+              <div class="chip-row">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>Django</span>
+                <span>WebSockets</span>
+                <span>REST APIs</span>
+                <span>Stripe</span>
+              </div>
+            </article>
+            <article class="skill-card reveal">
+              <i data-lucide="database"></i>
+              <h3>Data & Tools</h3>
+              <div class="chip-row">
+                <span>PostgreSQL</span>
+                <span>MongoDB</span>
+                <span>MySQL</span>
+                <span>Neon</span>
+                <span>Docker</span>
+                <span>Cloudinary</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-band content-section experience-section" id="experience">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience</p>
+            <h2>Freelance work with measurable delivery.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">May 2025 - Aug 2025</div>
+              <div class="timeline-body">
+                <span>Freelance Frontend Developer</span>
+                <h3>Cricket Studio Analytics Platform</h3>
+                <p>
+                  Developed an ESPN-style cricket analytics platform with a real-time scoring interface
+                  for 100+ users.
+                </p>
+                <ul>
+                  <li>Built responsive Next.js and TypeScript screens with Cloudinary image handling.</li>
+                  <li>Implemented cricket scorer logic, live score APIs, and custom scoring algorithms.</li>
+                  <li>Reached 95% uptime and 2.5 second load time across key flows.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Sept 2025 - Oct 2025</div>
+              <div class="timeline-body">
+                <span>Freelance Full-Stack Developer</span>
+                <h3>SNG Solvent Truck Management System</h3>
+                <p>
+                  Delivered a truck management and client handling system for 100+ active clients with
+                  admin workflows and structured data views.
+                </p>
+                <ul>
+                  <li>Built Node.js backend services with PostgreSQL and raw SQL query optimization.</li>
+                  <li>Created responsive Tailwind CSS interfaces for management workflows.</li>
+                  <li>Improved API response time by 60% through database and endpoint tuning.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-band content-section" id="projects">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Products built around real workflows.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span>2024</span>
+                <i data-lucide="hotel"></i>
+                
+              </div>
+              <h3>Hotel Booking Web Application</h3>
+              <p>
+                Full-stack booking platform with secure Stripe payments, real-time room availability,
+                admin revenue tracking, and automated confirmations.
+              </p>
+              <div class="chip-row">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>Prisma</span>
+                <span>Neon</span>
+                <span>Stripe</span>
+              </div>
+              <div class="project-action">
+                <a href="https://bookease-two.vercel.app/" class="button ghost" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span>2025</span>
+                <i data-lucide="messages-square"></i>
+              </div>
+              <h3>P2P College Networking Platform</h3>
+              <p>
+                Real-time college networking interface with chat, feeds, media sharing, presence status,
+                read receipts, and modular UI components.
+              </p>
+              <div class="chip-row">
+                <span>React</span>
+                <span>Tailwind</span>
+                <span>shadcn/ui</span>
+                <span>WebSockets</span>
+                <span>Django</span>
+              </div>
+              <div class="project-action">
+                <a href="https://p2p-front.vercel.app/login" class="button ghost" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-band content-section achievements-section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Achievements</p>
+            <h2>Proof of consistency across code, systems, and practice.</h2>
+          </div>
+
+          <div class="achievement-grid">
+            <article class="achievement-card reveal">
+              <i data-lucide="trophy"></i>
+              <span>2024</span>
+              <h3>LeetCode Achievement</h3>
+              <p>1400+ rating with a global ranking under the top 200+ programmers.</p>
+            </article>
+            <article class="achievement-card reveal">
+              <i data-lucide="brain-circuit"></i>
+              <span>2023</span>
+              <h3>DSA Certification</h3>
+              <p>Completed a 120-hour advanced C++ DSA course with 400+ problems solved.</p>
+            </article>
+            <article class="achievement-card reveal">
+              <i data-lucide="badge-check"></i>
+              <span>2023</span>
+              <h3>Full-Stack Certification</h3>
+              <p>Mastered MERN stack development through 8+ full-stack projects.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-band content-section contact-section" id="contact">
+          <div class="contact-layout">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Contact</p>
+              <h2>Let's build something sharp, useful, and fast.</h2>
+            </div>
+
+            <div class="contact-panel reveal">
+              <a href="mailto:mahendras00b@gmail.com">
+                <i data-lucide="mail"></i>
+                <span>mahendras00b@gmail.com</span>
+              </a>
+              <a href="tel:+916367350193">
+                <i data-lucide="phone"></i>
+                <span>+91 6367350193</span>
+              </a>
+              <a href="./Resume_Mahendra%20(30).pdf" download="Mahendra-Seervi-Resume.pdf">
+                <i data-lucide="file-down"></i>
+                <span>Download Resume</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>Mahendra Seervi</span>
+        <span>BTech CSE | IIIT Bhagalpur | Full-Stack Developer</span>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
