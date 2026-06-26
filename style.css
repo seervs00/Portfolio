@@ -1029,3 +1029,17 @@ h1 {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+.achievement-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.achievement-link:hover {
+  text-decoration: underline;
+}
